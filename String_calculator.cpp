@@ -32,7 +32,7 @@ int add(string numbers)
         //if number is negative then raise exception and print num
         else if( negative )
         {
-            cout<<"negatives not allowed : -"<<num<<endl;
+            cout<<"Exception : negatives not allowed : -"<<num<<endl;
             negative = false;
             num = 0;
         }
@@ -46,7 +46,7 @@ int add(string numbers)
     // handeling edge case for negative numbers at the end of string
     if( negative )
     {
-        cout<<"negatives not allowed : -"<<num<<endl;
+        cout<<"Exception : negatives not allowed : -"<<num<<endl;
         negative = false;
         num = 0;
     }
